@@ -112,7 +112,10 @@ a:hover{
 
 .grid-image {
     width: 100%;
-
+transition: .5s;
+}
+.grid-image:hover{
+    transform: scale(1.2);
 }
 
 .right-section {
